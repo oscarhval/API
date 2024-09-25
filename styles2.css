@@ -1,0 +1,171 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url('img/fondo.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+
+header {
+  text-align: center;
+  margin-top: 50px; 
+}
+
+#title img {
+  padding-left: 50px;
+  display: block;
+  margin: 0 auto; 
+}
+
+nav{
+
+  width: auto;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+nav ul{
+
+  border: 3px solid greenyellow;
+  border-radius: 10px;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+nav ul li{
+
+  margin: 0 50px 0 50px;
+}
+
+nav ul li a{
+
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+
+  color: aqua;
+}
+
+
+#search-container {
+
+  text-align: center;
+  vertical-align: bottom; 
+  margin-top: 50px; 
+}
+
+#search-container h1{
+
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  margin: 20px auto 20px auto;
+  color: aqua;
+}
+
+#search-input,
+#search-button {
+  vertical-align: bottom; 
+
+}
+
+#search-input{
+ 
+  width: 620px;
+  height: 50px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  border: 3px solid greenyellow;
+  background-color: white;
+  border-radius: 10px;
+
+}
+
+#search-container button {
+  width: 80px;
+  height: 50px;
+  margin: 5px;
+  padding: 0px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-style: oblique;
+  border: 3px;
+  background-color: aqua;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#search-container button:hover {
+  background-color: white;
+  color: aqua;
+}
+
+
+#result-container {
+  margin: 20px auto 20px auto;
+  width: 715px;
+  text-align: center;
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+
+#result-container h2 {
+  margin-top: 20px;
+  font-size: 35px;
+  color: aqua;
+}
+
+#result-container img {
+
+  margin: 20px auto 20px auto;
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#result-container p {
+  font-size: 24px;
+  color: aqua;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  

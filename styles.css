@@ -1,0 +1,110 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+  body {
+    margin: 0px;
+    padding: 0px;
+    background: url('img/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+header {
+    text-align: center;
+    margin-top: 50px; 
+}
+  
+#title img {
+    padding-left: 50px;
+    display: block;
+    margin: 0 auto; 
+}
+
+nav{
+    width: auto;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+  
+nav ul{  
+    border: 3px solid greenyellow;
+    border-radius: 5px;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+  
+nav ul li{
+  
+    margin: 0 50px 0 50px;
+}
+  
+nav ul li a{
+  
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+  
+nav ul li a:hover{
+  
+    color: aqua;
+}
+
+
+
+main{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 18px;
+}
+.image-container{
+    display: flex;
+}
+.image-container img {
+    width: 450px;
+    height: auto;
+}
+
+
+article{
+
+    width: 500px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    border: 3px solid greenyellow;
+    border-radius: 10px;
+}
+
+main article img{
+
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+main article h2{
+
+    margin-top: 10px;
+    font-size: 40px;
+    color: aqua;
+}
+
+main article span{
+
+    font-size: 20px ;
+    color: aqua;
+}
